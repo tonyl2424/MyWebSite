@@ -1,5 +1,12 @@
+*{
+    border: solid red;
+}
+
+
+
 body{
     margin: 0px;
+    
 }
 .container{
     display: flex;
@@ -38,26 +45,73 @@ justify-content: center;
 align-items: center;
 color: #E5E7Eb;
 font-size: 18px;
+flex-wrap: wrap;
 }
+
+
+@media (max-width: 839px){
+
+    .container-top{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+   
+
+
+   
+    }
+ 
+    @media (max-width: 839px){
+        .imgtwo{
+        margin-right: 30px;
+        }
+    }
+
+
+
+
+
 h1{
-    padding-left: 300px;
+    padding-left: 40%;
+    ;
     
 }
 .h1{
-    height: 300px;
+    
+    width: 50%;;
+    flex: 1 2 auto;
+    min-width: 358px;
+    
 }
 .imgtwo{
-    height: 300px;
-    width: 500px;
-    padding-right: 400px;
+   width: 90%;
+   height: 100%;
+   flex: 1 1 auto;
+   min-height:200px;
+   max-width: 538px;
+   min-width: 358px;
+   
+ 
+    
+    
 }
+.twohalf{
+    width: 40%;
+    height:400px;
+min-width: 358px
+
+    }
 .onep{
-padding-left: 200px;
-padding-right: 50px;
+padding-left: 30%;
+padding-right: 10%;
+width: 20%%;
+
+
 }
 button{
    display: inline-block;
-   margin-left: 200px;
+   margin-left: 30%;
 }
 h2{
     text-align: center;
@@ -70,6 +124,7 @@ h2{
     display: flex;
     justify-content: center;
     gap: 50px;
+    flex-wrap: wrap;
 }
 .qoute{
     text-align: center;
